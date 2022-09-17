@@ -5,7 +5,7 @@ available_domains = "available_domains.txt"                 # what file to save 
 show_unavailable_domains = True                             # print unavailable domains to console
 letters = 4                                                 # how many letters/numbers in generated url
 TDL = ".com"                                                # what TDL to use
-letters_to_include = "1234567890qwertyuioplkjhgfdsazxcvbnm" # what letters and numbers will be included in the randomly generated url
+letters_to_include = "1234567890qwertyuioplkjhgfdsazxcvbnm" # what letters and numbers will be included in the randomly generated domain
 
 # generate the random domain
 def get_random_string(size=letters, chars=letters_to_include):
